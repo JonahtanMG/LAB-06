@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion</title>
+</head>
+<body>
+    <body>
+    <header>
+        <h1>Validacion</h1>
+        
+        <nav>
+            <details>
+                <summary>Otras paginas</summary>
+                <ul>
+                    <li><a href="registros.html">Registros</a></li>
+                    <li><a href="lenguajes.html">Lenguajes</a></li>
+                    <li><a href="index.html">Principal</a></li>
+                </ul>
+            </details>
+        </nav>
+    </header>
+    <main>
+        <form action="#">
+            <label for="email">Ingrese correo electronico</label><br>
+            <input type="email" id="email" required placeholder="example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}"><br>
+            <label for="contraseña">Ingrese su contraseña</label><br>
+            <input type="password" minlength="6" maxlength="12" required><br>
+            <label for="validar_contraseña">Confirmar contraseña</label><br>
+            <input type="password" minlength="6" maxlength="12" required><br>
+            <button type="submit">Guardar</button>
+        </form>
+    </main>
+</body>
+</html>
